@@ -6,11 +6,25 @@
  * Made By MaterializeCSS.com
  */
 
+.container1
+{
+  
+}
 
+#Yellow
+{
+  background-color: yellow;
+}
+
+#im1
+{
+width: 200px;
+height: 60px;
+}
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #000;
   
 }
 
@@ -19,7 +33,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #456732;
 }
 
 .parallax-container {
@@ -31,6 +45,7 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -59,9 +74,9 @@ footer.page-footer {
   margin: 0;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+}*/
 
 /*body {
   display: flex;
@@ -71,7 +86,7 @@ footer.page-footer {
 
 .contenedor-slider {
   margin: auto;
-  width: 85%;
+  width: 100%;
   max-width: 900px;
   position: relative;
   overflow: hidden;
@@ -97,7 +112,7 @@ footer.page-footer {
 .btn-prev, .btn-next {
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 252, 255, 0.6);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -111,7 +126,7 @@ footer.page-footer {
 }
 
 .btn-prev:hover, .btn-next:hover {
-  background: white;
+  background: #fff;
 }
 
 .btn-prev {
@@ -120,5 +135,23 @@ footer.page-footer {
 
 .btn-next {
   right: 10px;
+}
+
+.lnr-icons {
+  color: #000;
+  font-size: 50px;
+  /* To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
+
+.btnnorm
+{
+  color: #456732;
+}
+
+.direccion
+{
+  margin-left: 110%;
 }
 
