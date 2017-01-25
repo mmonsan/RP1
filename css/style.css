@@ -6,9 +6,24 @@
  * Made By MaterializeCSS.com
  */
 
+#h2
+{
+  font-family: 'Lato', sans-serif;
+}
+
+#h5
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.comtainer2
+{
+background-color: black;
+}
+
 .container1
 {
-  
 }
 
 #Red
@@ -30,11 +45,11 @@ height: 60px;
 nav ul a,
 nav .brand-logo {
   color: #000;
-  
 }
 
 p {
   line-height: 2rem;
+   font-family: 'Lato', sans-serif;
 }
 
 .button-collapse {
@@ -75,6 +90,11 @@ p {
   font-size: inherit;
 }
 
+.footer1
+{
+  background-color: red;
+}
+
 footer.page-footer {
   margin: 0;
 }
@@ -89,14 +109,14 @@ footer.page-footer {
   background: #EFC076;
 }*/
 
+/*Slyder */
+
 .contenedor-slider {
   margin: auto;
   width: 100%;
   max-width: 900px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 0 10px #fff,
- 0 15px 50px;
 }
 
 .slider {
