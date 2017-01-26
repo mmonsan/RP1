@@ -3,6 +3,18 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+.mapa
+{
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px #999;
+}
+
+.shadow
+{
+  box-shadow: 5px 5px 10px #999;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
